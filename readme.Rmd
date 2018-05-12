@@ -32,14 +32,18 @@ código en la consola de RStudio:
 install.packages(c("usethis", "readxl", "FactoMineR", "factoextra", 
                    "dplyr", "gplots", "corrplot", "knitr"))
 usethis::use_course("https://goo.gl/p3DU1Y")
-unzip("datos")
 ```
 
 
 En la consola se mostrarán mensajes de confirmación para descargar los materiales
 en un fichero zip. Tras confirmar, el fichero se descarga y descomprime automáticamente
 en la carpeta de usuario y se abre el proyecto RStudio con el que trabajaremos,
-incluido código y datos.
+incluido código y datos, que hay que descomprimir:
+
+```{r eval=FALSE}
+unzip("datos.zip")
+```
+
 
 
 Descripción e importación de datos

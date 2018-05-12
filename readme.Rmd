@@ -79,14 +79,9 @@ los datos del fichero excel, cuya importación en R es trivial con el
 paquete `readxl`:
 
 
-```{r, message=FALSE, eval=FALSE}
+```{r, message=FALSE, eval=TRUE}
 library(readxl)
 eese <- read_excel("datos/MICRODAT.ADULTO.xlsx")
-```
-
-```{r, echo=FALSE, purl=FALSE}
-# save(eese, file = "datos/eese.RData")
-load("datos/eese.RData")
 ```
 
 

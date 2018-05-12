@@ -31,7 +31,7 @@ código en la consola de RStudio:
 ```{r, eval=FALSE}
 install.packages(c("usethis", "readxl", "FactoMineR", "factoextra", 
                    "dplyr", "gplots", "corrplot", "knitr"))
-usethis::use_course("")
+usethis::use_course("https://goo.gl/p3DU1Y")
 unzip("datos")
 ```
 
